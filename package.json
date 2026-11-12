@@ -1,0 +1,19 @@
+{
+  "name": "mimimi-chat-agent",
+  "version": "1.0.0",
+  "description": "Chat agent with web search and persistent, date-aware memory",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.9.0",
+    "dotenv": "^18.0.10",
+    "express": "^4.21.2",
+    "openai": "^4.78.1"
+  }
+}
